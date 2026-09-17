@@ -1,0 +1,678 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <Color x:Key="CustomEffectBackgroundColor">#0A0908</Color>
+    <Color x:Key="CustomEffectHeaderColor">#050505</Color>
+    <Color x:Key="CustomEffectPanelColor">#11100F</Color>
+    <Color x:Key="CustomEffectCardColor">#181613</Color>
+    <Color x:Key="CustomEffectCardHoverColor">#231F19</Color>
+    <Color x:Key="CustomEffectRuleCardColor">#131210</Color>
+    <Color x:Key="CustomEffectInputColor">#0F0E0C</Color>
+    <Color x:Key="CustomEffectBorderColor">#3A3227</Color>
+    <Color x:Key="CustomEffectGoldColor">#D8AE56</Color>
+    <Color x:Key="CustomEffectGoldMutedColor">#9E7C3D</Color>
+    <Color x:Key="CustomEffectTextColor">#F2E9D7</Color>
+    <Color x:Key="CustomEffectMutedTextColor">#B8AD9B</Color>
+    <Color x:Key="CustomEffectWarningColor">#C9A34E</Color>
+    <Color x:Key="CustomEffectDangerColor">#B77A72</Color>
+    <Color x:Key="CustomEffectNegativeColor">#D09A92</Color>
+    <Color x:Key="CustomEffectNegativeBackgroundColor">#402827</Color>
+    <Color x:Key="CustomEffectNegativeBorderColor">#754743</Color>
+    <Color x:Key="CustomEffectOrdinaryColor">#3A3329</Color>
+    <Color x:Key="CustomEffectDeepColor">#29253A</Color>
+    <Color x:Key="CustomEffectScrollThumbColor">#51483A</Color>
+    <Color x:Key="CustomEffectScrollThumbHoverColor">#8C7344</Color>
+    <Color x:Key="CustomEffectSlotRedColor">#9C5149</Color>
+    <Color x:Key="CustomEffectSlotBlueColor">#587491</Color>
+    <Color x:Key="CustomEffectSlotYellowColor">#A98A45</Color>
+    <Color x:Key="CustomEffectSlotGreenColor">#55745E</Color>
+    <Color x:Key="CustomEffectSlotWhiteColor">#C7C3B7</Color>
+
+    <SolidColorBrush x:Key="CustomEffectBackgroundBrush" Color="{StaticResource CustomEffectBackgroundColor}" />
+    <SolidColorBrush x:Key="CustomEffectHeaderBrush" Color="{StaticResource CustomEffectHeaderColor}" />
+    <SolidColorBrush x:Key="CustomEffectPanelBrush" Color="{StaticResource CustomEffectPanelColor}" />
+    <SolidColorBrush x:Key="CustomEffectCardBrush" Color="{StaticResource CustomEffectCardColor}" />
+    <SolidColorBrush x:Key="CustomEffectCardHoverBrush" Color="{StaticResource CustomEffectCardHoverColor}" />
+    <SolidColorBrush x:Key="CustomEffectRuleCardBrush" Color="{StaticResource CustomEffectRuleCardColor}" />
+    <SolidColorBrush x:Key="CustomEffectInputBrush" Color="{StaticResource CustomEffectInputColor}" />
+    <SolidColorBrush x:Key="CustomEffectBorderBrush" Color="{StaticResource CustomEffectBorderColor}" />
+    <SolidColorBrush x:Key="CustomEffectGoldBrush" Color="{StaticResource CustomEffectGoldColor}" />
+    <SolidColorBrush x:Key="CustomEffectGoldMutedBrush" Color="{StaticResource CustomEffectGoldMutedColor}" />
+    <SolidColorBrush x:Key="CustomEffectTextBrush" Color="{StaticResource CustomEffectTextColor}" />
+    <SolidColorBrush x:Key="CustomEffectMutedTextBrush" Color="{StaticResource CustomEffectMutedTextColor}" />
+    <SolidColorBrush x:Key="CustomEffectWarningBrush" Color="{StaticResource CustomEffectWarningColor}" />
+    <SolidColorBrush x:Key="CustomEffectDangerBrush" Color="{StaticResource CustomEffectDangerColor}" />
+    <SolidColorBrush x:Key="CustomEffectNegativeBrush" Color="{StaticResource CustomEffectNegativeColor}" />
+    <SolidColorBrush x:Key="CustomEffectNegativeBackgroundBrush" Color="{StaticResource CustomEffectNegativeBackgroundColor}" Opacity="0.72" />
+    <SolidColorBrush x:Key="CustomEffectNegativeBorderBrush" Color="{StaticResource CustomEffectNegativeBorderColor}" />
+    <SolidColorBrush x:Key="CustomEffectOrdinaryBrush" Color="{StaticResource CustomEffectOrdinaryColor}" />
+    <SolidColorBrush x:Key="CustomEffectDeepBrush" Color="{StaticResource CustomEffectDeepColor}" />
+    <SolidColorBrush x:Key="CustomEffectScrollThumbBrush" Color="{StaticResource CustomEffectScrollThumbColor}" />
+    <SolidColorBrush x:Key="CustomEffectScrollThumbHoverBrush" Color="{StaticResource CustomEffectScrollThumbHoverColor}" />
+    <SolidColorBrush x:Key="CustomEffectSlotRedBrush" Color="{StaticResource CustomEffectSlotRedColor}" />
+    <SolidColorBrush x:Key="CustomEffectSlotBlueBrush" Color="{StaticResource CustomEffectSlotBlueColor}" />
+    <SolidColorBrush x:Key="CustomEffectSlotYellowBrush" Color="{StaticResource CustomEffectSlotYellowColor}" />
+    <SolidColorBrush x:Key="CustomEffectSlotGreenBrush" Color="{StaticResource CustomEffectSlotGreenColor}" />
+    <SolidColorBrush x:Key="CustomEffectSlotWhiteBrush" Color="{StaticResource CustomEffectSlotWhiteColor}" />
+    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#2A241B" />
+    <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="#211D17" />
+    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" Color="#F2E9D7" />
+
+    <sys:Double x:Key="CustomEffectBodyFontSize">17</sys:Double>
+    <sys:Double x:Key="CustomEffectSmallFontSize">14.5</sys:Double>
+    <sys:Double x:Key="CustomEffectHeaderFontSize">16</sys:Double>
+    <sys:Double x:Key="CustomEffectRuleFontSize">14.5</sys:Double>
+    <sys:Double x:Key="CustomEffectSectionFontSize">20</sys:Double>
+    <sys:Double x:Key="CustomEffectTitleFontSize">27</sys:Double>
+    <sys:Double x:Key="CustomEffectButtonFontSize">16</sys:Double>
+    <sys:Double x:Key="CustomEffectResultHeadingFontSize">22</sys:Double>
+    <sys:Double x:Key="CustomEffectPresetNameFontSize">14</sys:Double>
+    <sys:Double x:Key="CustomEffectRelicNameFontSize">13</sys:Double>
+    <sys:Double x:Key="CustomEffectRelicEffectFontSize">18</sys:Double>
+    <sys:Double x:Key="CustomEffectLeftFontSize">15.5</sys:Double>
+    <sys:Double x:Key="CustomEffectControlHeight">44</sys:Double>
+    <sys:Double x:Key="CustomEffectRelicCardHeight">188</sys:Double>
+    <sys:Double x:Key="CustomEffectRelicCardWidth">166</sys:Double>
+    <sys:Double x:Key="CustomEffectRuleCardWidth">184</sys:Double>
+    <sys:Double x:Key="CustomEffectSelectorValueMaxWidth">132</sys:Double>
+    <CornerRadius x:Key="CustomEffectWindowRadius">15</CornerRadius>
+    <CornerRadius x:Key="CustomEffectCardRadius">9</CornerRadius>
+    <Thickness x:Key="CustomEffectOuterMargin">14</Thickness>
+    <Thickness x:Key="CustomEffectCardPadding">14</Thickness>
+
+    <Style x:Key="CustomEffectCard" TargetType="Border">
+        <Setter Property="Background" Value="{StaticResource CustomEffectCardBrush}" />
+        <Setter Property="BorderBrush" Value="{StaticResource CustomEffectBorderBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="CornerRadius" Value="{StaticResource CustomEffectCardRadius}" />
+        <Setter Property="Padding" Value="{StaticResource CustomEffectCardPadding}" />
+    </Style>
+    <Style x:Key="CustomEffectSectionTitle" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectTextBrush}" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectSectionFontSize}" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+    </Style>
+    <Style x:Key="CustomEffectCompactSectionTitle" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectTextBrush}" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectHeaderFontSize}" />
+        <Setter Property="FontWeight" Value="Normal" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+    </Style>
+    <Style x:Key="CustomEffectEyebrow" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectGoldBrush}" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectSmallFontSize}" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+    </Style>
+    <Style x:Key="CustomEffectMuted" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectMutedTextBrush}" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectSmallFontSize}" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+    </Style>
+    <Style x:Key="CustomEffectCategoryCountText" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectGoldMutedBrush}" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectSmallFontSize}" />
+        <Setter Property="FontWeight" Value="Normal" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+    </Style>
+
+    <Style x:Key="CustomEffectTextBox" TargetType="TextBox">
+        <Setter Property="Height" Value="{StaticResource CustomEffectControlHeight}" />
+        <Setter Property="MinHeight" Value="{StaticResource CustomEffectControlHeight}" />
+        <Setter Property="Background" Value="{StaticResource CustomEffectInputBrush}" />
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectTextBrush}" />
+        <Setter Property="CaretBrush" Value="{StaticResource CustomEffectGoldBrush}" />
+        <Setter Property="BorderBrush" Value="{StaticResource CustomEffectBorderBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Padding" Value="13,0" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectBodyFontSize}" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+        <Setter Property="TextWrapping" Value="NoWrap" />
+        <Setter Property="AcceptsReturn" Value="False" />
+        <Setter Property="ClipToBounds" Value="True" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="TextBox">
+                    <Border x:Name="InputBorder" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="7">
+                        <ScrollViewer x:Name="PART_ContentHost" Margin="{TemplateBinding Padding}"
+                                      VerticalAlignment="Center" HorizontalScrollBarVisibility="Hidden"
+                                      VerticalScrollBarVisibility="Disabled" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsKeyboardFocused" Value="True"><Setter TargetName="InputBorder" Property="BorderBrush" Value="{StaticResource CustomEffectGoldMutedBrush}" /></Trigger>
+                        <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="InputBorder" Property="Background" Value="{StaticResource CustomEffectRuleCardBrush}" /></Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="CustomEffectComboBoxItem" TargetType="ComboBoxItem">
+        <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectTextBrush}" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="Padding" Value="12,9" />
+        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectBodyFontSize}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ComboBoxItem">
+                    <Border x:Name="ItemBorder" Background="{TemplateBinding Background}" CornerRadius="5" Padding="{TemplateBinding Padding}">
+                        <ContentPresenter />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsHighlighted" Value="True">
+                            <Setter TargetName="ItemBorder" Property="Background" Value="{StaticResource CustomEffectCardHoverBrush}" />
+                            <Setter Property="Foreground" Value="{StaticResource CustomEffectGoldBrush}" />
+                        </Trigger>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter TargetName="ItemBorder" Property="Background" Value="{StaticResource CustomEffectRuleCardBrush}" />
+                            <Setter Property="Foreground" Value="{StaticResource CustomEffectGoldBrush}" />
+                        </Trigger>
+                        <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                            <Setter TargetName="ItemBorder" Property="BorderBrush" Value="{StaticResource CustomEffectGoldBrush}" />
+                            <Setter TargetName="ItemBorder" Property="BorderThickness" Value="1" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="CustomEffectComboBox" TargetType="ComboBox">
+        <Setter Property="MinHeight" Value="{StaticResource CustomEffectControlHeight}" />
+        <Setter Property="Background" Value="{StaticResource CustomEffectInputBrush}" />
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectTextBrush}" />
+        <Setter Property="BorderBrush" Value="{StaticResource CustomEffectBorderBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Padding" Value="12,7" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectBodyFontSize}" />
+        <Setter Property="MaxDropDownHeight" Value="340" />
+        <Setter Property="ItemContainerStyle" Value="{StaticResource CustomEffectComboBoxItem}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ComboBox">
+                    <Grid>
+                        <ToggleButton x:Name="DropDownToggle" Focusable="False" ClickMode="Press"
+                                      IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}">
+                            <ToggleButton.Template>
+                                <ControlTemplate TargetType="ToggleButton">
+                                    <Border x:Name="ComboBorder" Background="{Binding Background, RelativeSource={RelativeSource AncestorType=ComboBox}}"
+                                            BorderBrush="{Binding BorderBrush, RelativeSource={RelativeSource AncestorType=ComboBox}}"
+                                            BorderThickness="{Binding BorderThickness, RelativeSource={RelativeSource AncestorType=ComboBox}}"
+                                            CornerRadius="7" Padding="{Binding Padding, RelativeSource={RelativeSource AncestorType=ComboBox}}">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="22" /></Grid.ColumnDefinitions>
+                                            <ContentPresenter Content="{Binding SelectionBoxItem, RelativeSource={RelativeSource AncestorType=ComboBox}}"
+                                                              ContentTemplate="{Binding SelectionBoxItemTemplate, RelativeSource={RelativeSource AncestorType=ComboBox}}"
+                                                              VerticalAlignment="Center" TextElement.Foreground="{StaticResource CustomEffectTextBrush}" />
+                                            <Path Grid.Column="1" Data="M 2,5 L 7,10 L 12,5" Stroke="{StaticResource CustomEffectGoldMutedBrush}"
+                                                  StrokeThickness="1.6" StrokeStartLineCap="Round" StrokeEndLineCap="Round"
+                                                  HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                        </Grid>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="ComboBorder" Property="Background" Value="{StaticResource CustomEffectRuleCardBrush}" />
+                                            <Setter TargetName="ComboBorder" Property="BorderBrush" Value="{StaticResource CustomEffectGoldMutedBrush}" />
+                                        </Trigger>
+                                        <Trigger Property="IsChecked" Value="True"><Setter TargetName="ComboBorder" Property="BorderBrush" Value="{StaticResource CustomEffectGoldBrush}" /></Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </ToggleButton.Template>
+                        </ToggleButton>
+                        <Popup x:Name="PART_Popup" Placement="Bottom" AllowsTransparency="True" Focusable="False"
+                               PopupAnimation="Fade" IsOpen="{TemplateBinding IsDropDownOpen}">
+                            <Border x:Name="DropDownBorder" Background="{StaticResource CustomEffectPanelBrush}"
+                                    BorderBrush="{StaticResource CustomEffectGoldMutedBrush}" BorderThickness="1" CornerRadius="7"
+                                    Padding="4" Margin="0,4,0,0" MaxHeight="{TemplateBinding MaxDropDownHeight}"
+                                    Width="{Binding ActualWidth, RelativeSource={RelativeSource TemplatedParent}}">
+                                <ScrollViewer CanContentScroll="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                                    <ItemsPresenter />
+                                </ScrollViewer>
+                            </Border>
+                        </Popup>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="HasItems" Value="False"><Setter TargetName="DropDownBorder" Property="MinHeight" Value="44" /></Trigger>
+                        <Trigger Property="IsEnabled" Value="False"><Setter Property="Opacity" Value="0.45" /></Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="CustomEffectButtonBase" TargetType="Button">
+        <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+        <Setter Property="MinHeight" Value="40" />
+        <Setter Property="Padding" Value="13,7" />
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectTextBrush}" />
+        <Setter Property="Background" Value="{StaticResource CustomEffectCardHoverBrush}" />
+        <Setter Property="BorderBrush" Value="{StaticResource CustomEffectBorderBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="FontFamily" Value="Microsoft YaHei UI" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectButtonFontSize}" />
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="ButtonBorder" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="6" Padding="{TemplateBinding Padding}">
+                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="ButtonBorder" Property="Background" Value="{StaticResource CustomEffectCardBrush}" />
+                            <Setter TargetName="ButtonBorder" Property="BorderBrush" Value="{StaticResource CustomEffectGoldMutedBrush}" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True"><Setter TargetName="ButtonBorder" Property="Background" Value="{StaticResource CustomEffectHeaderBrush}" /></Trigger>
+                        <Trigger Property="IsKeyboardFocused" Value="True">
+                            <Setter TargetName="ButtonBorder" Property="Background" Value="{StaticResource CustomEffectInputBrush}" />
+                            <Setter Property="FontWeight" Value="SemiBold" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False"><Setter Property="Opacity" Value="0.38" /></Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="CustomEffectGoldButton" TargetType="Button" BasedOn="{StaticResource CustomEffectButtonBase}">
+        <Setter Property="Background" Value="{StaticResource CustomEffectRuleCardBrush}" />
+        <Setter Property="BorderBrush" Value="{StaticResource CustomEffectGoldBrush}" />
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectGoldBrush}" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+    </Style>
+    <Style x:Key="CustomEffectCompactHeaderButton" TargetType="Button" BasedOn="{StaticResource CustomEffectButtonBase}">
+        <Setter Property="MinWidth" Value="54" /><Setter Property="MinHeight" Value="32" />
+        <Setter Property="Padding" Value="10,4" /><Setter Property="FontSize" Value="{StaticResource CustomEffectHeaderFontSize}" />
+    </Style>
+    <Style x:Key="CustomEffectTinyHeaderButton" TargetType="Button" BasedOn="{StaticResource CustomEffectButtonBase}">
+        <Setter Property="MinWidth" Value="46" /><Setter Property="MinHeight" Value="28" />
+        <Setter Property="Padding" Value="9,2" /><Setter Property="FontSize" Value="{StaticResource CustomEffectSmallFontSize}" />
+        <Setter Property="Background" Value="{StaticResource CustomEffectRuleCardBrush}" />
+    </Style>
+    <Style x:Key="CustomEffectTinyGoldButton" TargetType="Button" BasedOn="{StaticResource CustomEffectTinyHeaderButton}">
+        <Setter Property="BorderBrush" Value="{StaticResource CustomEffectGoldMutedBrush}" />
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectGoldBrush}" />
+    </Style>
+    <Style x:Key="CustomEffectLeafButton" TargetType="Button" BasedOn="{StaticResource CustomEffectButtonBase}">
+        <Setter Property="Width" Value="30" /><Setter Property="Height" Value="30" /><Setter Property="MinHeight" Value="0" />
+        <Setter Property="Padding" Value="2" /><Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderBrush" Value="Transparent" />
+    </Style>
+    <Style x:Key="CustomEffectCompactGoldButton" TargetType="Button" BasedOn="{StaticResource CustomEffectCompactHeaderButton}">
+        <Setter Property="Background" Value="{StaticResource CustomEffectRuleCardBrush}" />
+        <Setter Property="BorderBrush" Value="{StaticResource CustomEffectGoldBrush}" />
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectGoldBrush}" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+    </Style>
+    <Style x:Key="CustomEffectIconButton" TargetType="Button" BasedOn="{StaticResource CustomEffectButtonBase}">
+        <Setter Property="MinWidth" Value="36" /><Setter Property="MinHeight" Value="34" /><Setter Property="Padding" Value="7,4" />
+    </Style>
+    <Style x:Key="CustomEffectCompactIconButton" TargetType="Button" BasedOn="{StaticResource CustomEffectButtonBase}">
+        <Setter Property="MinWidth" Value="27" /><Setter Property="MinHeight" Value="26" /><Setter Property="Padding" Value="4,1" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectRuleFontSize}" />
+    </Style>
+    <Style x:Key="CustomEffectScaleButton" TargetType="Button" BasedOn="{StaticResource CustomEffectButtonBase}">
+        <Setter Property="Width" Value="36" /><Setter Property="Height" Value="36" /><Setter Property="MinHeight" Value="0" /><Setter Property="Padding" Value="0" />
+        <Setter Property="FontSize" Value="20" /><Setter Property="FontWeight" Value="SemiBold" />
+    </Style>
+    <Style x:Key="CustomEffectWindowButton" TargetType="Button" BasedOn="{StaticResource CustomEffectButtonBase}">
+        <Setter Property="Width" Value="36" /><Setter Property="Height" Value="32" /><Setter Property="MinHeight" Value="0" />
+        <Setter Property="Padding" Value="0" /><Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderBrush" Value="Transparent" /><Setter Property="FontSize" Value="15" />
+    </Style>
+    <Style x:Key="CustomEffectCloseWindowButton" TargetType="Button" BasedOn="{StaticResource CustomEffectWindowButton}">
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="{StaticResource CustomEffectNegativeBackgroundBrush}" />
+                <Setter Property="Foreground" Value="{StaticResource CustomEffectNegativeBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="CustomEffectEffectButton" TargetType="Button" BasedOn="{StaticResource CustomEffectButtonBase}">
+        <Setter Property="HorizontalContentAlignment" Value="Stretch" /><Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="MinHeight" Value="34" /><Setter Property="Padding" Value="9,4" />
+        <Setter Property="Margin" Value="0,0,0,4" /><Setter Property="Background" Value="{StaticResource CustomEffectRuleCardBrush}" />
+    </Style>
+    <Style x:Key="CustomEffectPresetButton" TargetType="Button" BasedOn="{StaticResource CustomEffectEffectButton}">
+        <Setter Property="Padding" Value="9,6" />
+    </Style>
+
+    <Style x:Key="CustomEffectNeutralListItem" TargetType="ListBoxItem">
+        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+        <Setter Property="VerticalContentAlignment" Value="Stretch" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderBrush" Value="Transparent" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Padding" Value="0" />
+        <Setter Property="Margin" Value="0" />
+        <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ListBoxItem">
+                    <Border x:Name="ItemBorder" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="6" Padding="{TemplateBinding Padding}">
+                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                          VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="ListBoxItem" BasedOn="{StaticResource CustomEffectNeutralListItem}" />
+
+    <Style x:Key="CustomEffectNavItem" TargetType="ListBoxItem" BasedOn="{StaticResource CustomEffectNeutralListItem}">
+        <Setter Property="HorizontalContentAlignment" Value="Stretch" /><Setter Property="Foreground" Value="{StaticResource CustomEffectMutedTextBrush}" />
+        <Setter Property="Background" Value="Transparent" /><Setter Property="BorderBrush" Value="Transparent" />
+        <Setter Property="BorderThickness" Value="1" /><Setter Property="Padding" Value="11,8" />
+        <Setter Property="Margin" Value="0,0,0,5" /><Setter Property="Cursor" Value="Hand" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectBodyFontSize}" />
+        <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ListBoxItem">
+                    <Border x:Name="NavBorder" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="6" Padding="{TemplateBinding Padding}">
+                        <ContentPresenter />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="NavBorder" Property="Background" Value="{StaticResource CustomEffectCardHoverBrush}" /></Trigger>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter TargetName="NavBorder" Property="Background" Value="{StaticResource CustomEffectRuleCardBrush}" />
+                            <Setter TargetName="NavBorder" Property="BorderBrush" Value="{StaticResource CustomEffectGoldMutedBrush}" />
+                            <Setter Property="Foreground" Value="{StaticResource CustomEffectGoldBrush}" />
+                        </Trigger>
+                        <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                            <Setter TargetName="NavBorder" Property="BorderBrush" Value="{StaticResource CustomEffectGoldBrush}" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="CustomEffectCompactNavItem" TargetType="ListBoxItem" BasedOn="{StaticResource CustomEffectNavItem}">
+        <Setter Property="Padding" Value="7,4" />
+        <Setter Property="Margin" Value="0,0,3,3" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectLeftFontSize}" />
+    </Style>
+    <Style x:Key="CustomEffectResultTab" TargetType="ListBoxItem" BasedOn="{StaticResource CustomEffectNavItem}">
+        <Setter Property="Margin" Value="0,0,5,0" /><Setter Property="Padding" Value="9,7" />
+    </Style>
+    <Style x:Key="CustomEffectCheckBox" TargetType="CheckBox">
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectGoldBrush}" /><Setter Property="FontSize" Value="{StaticResource CustomEffectButtonFontSize}" />
+        <Setter Property="FontWeight" Value="SemiBold" /><Setter Property="VerticalAlignment" Value="Center" /><Setter Property="Padding" Value="3" />
+        <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="CheckBox">
+                    <Grid>
+                        <Grid.ColumnDefinitions><ColumnDefinition Width="18" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                        <Border x:Name="CheckBorder" Width="14" Height="14" CornerRadius="2" Background="{StaticResource CustomEffectInputBrush}"
+                                BorderBrush="{StaticResource CustomEffectBorderBrush}" BorderThickness="1" VerticalAlignment="Center">
+                            <Path x:Name="CheckMark" Data="M 2,7 L 5,10 L 12,3" Stroke="{StaticResource CustomEffectGoldBrush}"
+                                  StrokeThickness="2" Visibility="Collapsed" />
+                        </Border>
+                        <ContentPresenter Grid.Column="1" Margin="4,0,0,0" VerticalAlignment="Center" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True"><Setter TargetName="CheckMark" Property="Visibility" Value="Visible" /></Trigger>
+                        <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="CheckBorder" Property="BorderBrush" Value="{StaticResource CustomEffectGoldMutedBrush}" /></Trigger>
+                        <Trigger Property="IsKeyboardFocused" Value="True"><Setter TargetName="CheckBorder" Property="BorderBrush" Value="{StaticResource CustomEffectGoldBrush}" /></Trigger>
+                        <Trigger Property="IsEnabled" Value="False"><Setter Property="Opacity" Value="0.4" /></Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="CustomEffectRuleCard" TargetType="Border" BasedOn="{StaticResource CustomEffectCard}">
+        <Setter Property="HorizontalAlignment" Value="Stretch" />
+        <Setter Property="Padding" Value="5,2" /><Setter Property="Margin" Value="0,0,0,3" />
+        <Setter Property="Background" Value="{StaticResource CustomEffectRuleCardBrush}" />
+    </Style>
+    <Style x:Key="CustomEffectRuleStateButton" TargetType="Button" BasedOn="{StaticResource CustomEffectTinyHeaderButton}">
+        <Setter Property="MinWidth" Value="52" />
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectMutedTextBrush}" />
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding IsRequired}" Value="True">
+                <Setter Property="Foreground" Value="{StaticResource CustomEffectGoldBrush}" />
+                <Setter Property="BorderBrush" Value="{StaticResource CustomEffectGoldMutedBrush}" />
+                <Setter Property="Background" Value="{StaticResource CustomEffectCardHoverBrush}" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="CustomEffectRuleStatusBadge" TargetType="Border">
+        <Setter Property="Background" Value="{StaticResource CustomEffectHeaderBrush}" />
+        <Setter Property="BorderBrush" Value="{StaticResource CustomEffectBorderBrush}" />
+        <Setter Property="BorderThickness" Value="1" /><Setter Property="CornerRadius" Value="9" />
+        <Setter Property="Padding" Value="6,1" /><Setter Property="VerticalAlignment" Value="Center" />
+    </Style>
+    <Style x:Key="CustomEffectCompactCheckBox" TargetType="CheckBox" BasedOn="{StaticResource CustomEffectCheckBox}">
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectRuleFontSize}" />
+        <Setter Property="Padding" Value="1" />
+    </Style>
+    <Style x:Key="CustomEffectRelicCard" TargetType="Border">
+        <Setter Property="HorizontalAlignment" Value="Stretch" /><Setter Property="VerticalAlignment" Value="Stretch" />
+        <Setter Property="MinHeight" Value="{StaticResource CustomEffectRelicCardHeight}" />
+        <Setter Property="BorderThickness" Value="1" /><Setter Property="CornerRadius" Value="7" /><Setter Property="Padding" Value="9" />
+        <Setter Property="Margin" Value="4" /><Setter Property="Background" Value="{StaticResource CustomEffectRuleCardBrush}" />
+        <Setter Property="BorderBrush" Value="{StaticResource CustomEffectBorderBrush}" />
+    </Style>
+    <Style x:Key="CustomEffectResultHeading" TargetType="TextBlock" BasedOn="{StaticResource CustomEffectSectionTitle}">
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectResultHeadingFontSize}" />
+    </Style>
+    <Style x:Key="CustomEffectRelicName" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectMutedTextBrush}" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectRelicNameFontSize}" />
+        <Setter Property="FontWeight" Value="Normal" /><Setter Property="TextWrapping" Value="NoWrap" />
+        <Setter Property="TextTrimming" Value="CharacterEllipsis" /><Setter Property="Margin" Value="0,4,0,1" />
+    </Style>
+    <Style x:Key="CustomEffectSelectorEffectName" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectTextBrush}" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectLeftFontSize}" />
+        <Setter Property="FontWeight" Value="Normal" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding IsNegative}" Value="True">
+                <Setter Property="Foreground" Value="{StaticResource CustomEffectNegativeBrush}" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="CustomEffectSelectorEffectValue" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectGoldBrush}" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectLeftFontSize}" />
+        <Setter Property="FontWeight" Value="Normal" />
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding IsNegative}" Value="True">
+                <Setter Property="Foreground" Value="{StaticResource CustomEffectNegativeBrush}" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="CustomEffectRuleName" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectTextBrush}" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectRuleFontSize}" />
+        <Setter Property="FontWeight" Value="Normal" />
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding IsNegative}" Value="True">
+                <Setter Property="Foreground" Value="{StaticResource CustomEffectNegativeBrush}" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="CustomEffectPresetName" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectMutedTextBrush}" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectPresetNameFontSize}" />
+        <Setter Property="FontWeight" Value="Normal" />
+        <Setter Property="TextWrapping" Value="NoWrap" />
+        <Setter Property="TextTrimming" Value="CharacterEllipsis" />
+    </Style>
+    <Style x:Key="CustomEffectSlotColorDot" TargetType="Border">
+        <Setter Property="Width" Value="14" /><Setter Property="Height" Value="14" /><Setter Property="CornerRadius" Value="7" />
+        <Setter Property="BorderBrush" Value="{StaticResource CustomEffectTextBrush}" /><Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Margin" Value="0,0,6,0" /><Setter Property="Background" Value="{StaticResource CustomEffectSlotWhiteBrush}" />
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding ColorId}" Value="0"><Setter Property="Background" Value="{StaticResource CustomEffectSlotRedBrush}" /></DataTrigger>
+            <DataTrigger Binding="{Binding ColorId}" Value="1"><Setter Property="Background" Value="{StaticResource CustomEffectSlotBlueBrush}" /></DataTrigger>
+            <DataTrigger Binding="{Binding ColorId}" Value="2"><Setter Property="Background" Value="{StaticResource CustomEffectSlotYellowBrush}" /></DataTrigger>
+            <DataTrigger Binding="{Binding ColorId}" Value="3"><Setter Property="Background" Value="{StaticResource CustomEffectSlotGreenBrush}" /></DataTrigger>
+            <DataTrigger Binding="{Binding ColorId}" Value="4"><Setter Property="Background" Value="{StaticResource CustomEffectSlotWhiteBrush}" /></DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="CustomEffectRelicColorBadge" TargetType="Border">
+        <Setter Property="Background" Value="{StaticResource CustomEffectSlotWhiteBrush}" />
+        <Setter Property="BorderBrush" Value="{StaticResource CustomEffectSlotWhiteBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="CornerRadius" Value="9" />
+        <Setter Property="Padding" Value="8,3" />
+        <Setter Property="TextElement.Foreground" Value="{StaticResource CustomEffectHeaderBrush}" />
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding RelicColorId}" Value="0">
+                <Setter Property="Background" Value="{StaticResource CustomEffectSlotRedBrush}" />
+                <Setter Property="BorderBrush" Value="{StaticResource CustomEffectSlotRedBrush}" />
+                <Setter Property="TextElement.Foreground" Value="{StaticResource CustomEffectTextBrush}" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding RelicColorId}" Value="1">
+                <Setter Property="Background" Value="{StaticResource CustomEffectSlotBlueBrush}" />
+                <Setter Property="BorderBrush" Value="{StaticResource CustomEffectSlotBlueBrush}" />
+                <Setter Property="TextElement.Foreground" Value="{StaticResource CustomEffectTextBrush}" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding RelicColorId}" Value="2">
+                <Setter Property="Background" Value="{StaticResource CustomEffectSlotYellowBrush}" />
+                <Setter Property="BorderBrush" Value="{StaticResource CustomEffectSlotYellowBrush}" />
+                <Setter Property="TextElement.Foreground" Value="{StaticResource CustomEffectHeaderBrush}" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding RelicColorId}" Value="3">
+                <Setter Property="Background" Value="{StaticResource CustomEffectSlotGreenBrush}" />
+                <Setter Property="BorderBrush" Value="{StaticResource CustomEffectSlotGreenBrush}" />
+                <Setter Property="TextElement.Foreground" Value="{StaticResource CustomEffectTextBrush}" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding RelicColorId}" Value="4">
+                <Setter Property="Background" Value="{StaticResource CustomEffectSlotWhiteBrush}" />
+                <Setter Property="BorderBrush" Value="{StaticResource CustomEffectSlotWhiteBrush}" />
+                <Setter Property="TextElement.Foreground" Value="{StaticResource CustomEffectHeaderBrush}" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="CustomEffectEffectLineBorder" TargetType="Border">
+        <Setter Property="Background" Value="Transparent" /><Setter Property="BorderBrush" Value="Transparent" />
+        <Setter Property="BorderThickness" Value="1" /><Setter Property="CornerRadius" Value="4" />
+        <Setter Property="Padding" Value="4,2" /><Setter Property="Margin" Value="0,1" />
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding IsNegative}" Value="True">
+                <Setter Property="Background" Value="{StaticResource CustomEffectNegativeBackgroundBrush}" />
+                <Setter Property="BorderBrush" Value="{StaticResource CustomEffectNegativeBorderBrush}" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="CustomEffectEffectLineName" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectMutedTextBrush}" /><Setter Property="FontSize" Value="{StaticResource CustomEffectSmallFontSize}" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding IsNegative}" Value="True">
+                <Setter Property="Foreground" Value="{StaticResource CustomEffectNegativeBrush}" /><Setter Property="FontWeight" Value="SemiBold" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="CustomEffectEffectLineValue" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectGoldBrush}" /><Setter Property="FontSize" Value="{StaticResource CustomEffectSmallFontSize}" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Style.Triggers><DataTrigger Binding="{Binding IsNegative}" Value="True"><Setter Property="Foreground" Value="{StaticResource CustomEffectNegativeBrush}" /></DataTrigger></Style.Triggers>
+    </Style>
+    <Style x:Key="CustomEffectPresetEffectLineName" TargetType="TextBlock" BasedOn="{StaticResource CustomEffectEffectLineName}">
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectTextBrush}" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectSmallFontSize}" />
+        <Setter Property="FontWeight" Value="Normal" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+    </Style>
+    <Style x:Key="CustomEffectPresetEffectLineValue" TargetType="TextBlock" BasedOn="{StaticResource CustomEffectEffectLineValue}">
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectSmallFontSize}" />
+    </Style>
+    <Style x:Key="CustomEffectResultEffectLineName" TargetType="TextBlock" BasedOn="{StaticResource CustomEffectEffectLineName}">
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectTextBrush}" />
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectRelicEffectFontSize}" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="TextTrimming" Value="None" />
+    </Style>
+    <Style x:Key="CustomEffectResultEffectLineValue" TargetType="TextBlock" BasedOn="{StaticResource CustomEffectEffectLineValue}">
+        <Setter Property="FontSize" Value="{StaticResource CustomEffectRelicEffectFontSize}" />
+    </Style>
+
+    <Style x:Key="CustomEffectSavePanel" TargetType="Border">
+        <Setter Property="Background" Value="{StaticResource CustomEffectRuleCardBrush}" />
+        <Setter Property="BorderBrush" Value="{StaticResource CustomEffectBorderBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="CornerRadius" Value="7" />
+        <Setter Property="Padding" Value="10" />
+    </Style>
+    <Style x:Key="CustomEffectPinToggleButton" TargetType="ToggleButton">
+        <Setter Property="MinWidth" Value="70" /><Setter Property="MinHeight" Value="32" />
+        <Setter Property="Padding" Value="10,3" /><Setter Property="FontSize" Value="{StaticResource CustomEffectSmallFontSize}" />
+        <Setter Property="Foreground" Value="{StaticResource CustomEffectTextBrush}" />
+        <Setter Property="Background" Value="{StaticResource CustomEffectRuleCardBrush}" />
+        <Setter Property="BorderBrush" Value="{StaticResource CustomEffectBorderBrush}" />
+        <Setter Property="BorderThickness" Value="1" /><Setter Property="Cursor" Value="Hand" />
+        <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ToggleButton">
+                    <Border x:Name="ToggleBorder" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="6" Padding="{TemplateBinding Padding}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="ToggleBorder" Property="BorderBrush" Value="{StaticResource CustomEffectGoldMutedBrush}" /></Trigger>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="ToggleBorder" Property="Background" Value="{StaticResource CustomEffectCardHoverBrush}" />
+                            <Setter TargetName="ToggleBorder" Property="BorderBrush" Value="{StaticResource CustomEffectGoldBrush}" />
+                            <Setter Property="Foreground" Value="{StaticResource CustomEffectGoldBrush}" />
+                        </Trigger>
+                        <Trigger Property="IsKeyboardFocused" Value="True"><Setter TargetName="ToggleBorder" Property="BorderBrush" Value="{StaticResource CustomEffectGoldBrush}" /></Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="CustomEffectScrollThumb" TargetType="Thumb">
+        <Setter Property="Background" Value="{StaticResource CustomEffectScrollThumbBrush}" /><Setter Property="Opacity" Value="0.72" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Thumb">
+                    <Border x:Name="ThumbBorder" Background="{TemplateBinding Background}" CornerRadius="4" Margin="1" />
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="ThumbBorder" Property="Background" Value="{StaticResource CustomEffectScrollThumbHoverBrush}" /><Setter Property="Opacity" Value="0.9" />
+                        </Trigger>
+                        <Trigger Property="IsDragging" Value="True"><Setter Property="Opacity" Value="1" /></Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="ScrollBar">
+        <Setter Property="Background" Value="Transparent" /><Setter Property="Foreground" Value="{StaticResource CustomEffectScrollThumbBrush}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ScrollBar">
+                    <Track x:Name="PART_Track" IsDirectionReversed="True">
+                        <Track.DecreaseRepeatButton><RepeatButton Command="ScrollBar.PageUpCommand" Opacity="0" /></Track.DecreaseRepeatButton>
+                        <Track.Thumb><Thumb Style="{StaticResource CustomEffectScrollThumb}" /></Track.Thumb>
+                        <Track.IncreaseRepeatButton><RepeatButton Command="ScrollBar.PageDownCommand" Opacity="0" /></Track.IncreaseRepeatButton>
+                    </Track>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="Orientation" Value="Horizontal"><Setter TargetName="PART_Track" Property="IsDirectionReversed" Value="False" /></Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="Orientation" Value="Vertical"><Setter Property="Width" Value="10" /></Trigger>
+            <Trigger Property="Orientation" Value="Horizontal"><Setter Property="Height" Value="10" /></Trigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>

@@ -1,2 +1,17 @@
-# Auto detect text files and perform LF normalization
 * text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf
+*.csproj text eol=lf
+*.sln text eol=crlf
+*.config text eol=lf
+# Keep exact current source and official text bytes across Git checkouts.
+*.cs -text
+*.xaml -text
+*.manifest -text
+*.json -text
+*.xml -text
+docs/README.txt -text
+*.gz binary
+*.png binary
+*.ico binary

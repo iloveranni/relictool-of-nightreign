@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "nightreign.relic-inventory-layout.v1",
+  "profileId": "nightreign-1.03.5-user-confirmed-eight-column-layout",
+  "supportedGameVersions": [
+    "1.03.5"
+  ],
+  "columns": 8,
+  "fillDirection": "row_major_left_to_right_top_to_bottom",
+  "sortKey": "inventory_entry_sort_key_uint32_le",
+  "sortDirection": "descending",
+  "partition": "is_deep_then_color",
+  "tiePolicy": "exact_position_unavailable",
+  "evidenceStatus": "project_verified",
+  "verificationStatus": "project_verified",
+  "source": {
+    "kind": "user_game_observation",
+    "uri": "docs/RESOURCES.md#inventory-layout",
+    "revision": "inventory-layout-1.03.5-uint32",
+    "confirmedDate": "2026-09-05",
+    "claimScope": "Regulation 1.03.5 layout: ordinary/deep and actual color partitions, unsigned descending 32-bit key, eight columns in row-major order; equal keys have uncertain positions. Validation is limited to observed ordinary-red and deep-red first-row samples. Other colors, subsequent rows, favorites/equipment visibility and other versions or modes remain pending in-game verification."
+  }
+}
