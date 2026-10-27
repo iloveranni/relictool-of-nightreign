@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NightreignRelicTool", "src\NightreignRelicTool\NightreignRelicTool.csproj", "{A5F8C66D-32C5-455A-8B09-968BC5B5BA0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NightreignRelicTool.Integration.Tests", "tests\NightreignRelicTool.Integration.Tests\NightreignRelicTool.Integration.Tests.csproj", "{2D73D385-7FA8-47B4-B681-6D3411471716}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5F8C66D-32C5-455A-8B09-968BC5B5BA0F}.Debug|x64.ActiveCfg = Debug|x64
+		{A5F8C66D-32C5-455A-8B09-968BC5B5BA0F}.Debug|x64.Build.0 = Debug|x64
+		{A5F8C66D-32C5-455A-8B09-968BC5B5BA0F}.Release|x64.ActiveCfg = Release|x64
+		{A5F8C66D-32C5-455A-8B09-968BC5B5BA0F}.Release|x64.Build.0 = Release|x64
+		{2D73D385-7FA8-47B4-B681-6D3411471716}.Debug|x64.ActiveCfg = Debug|x64
+		{2D73D385-7FA8-47B4-B681-6D3411471716}.Debug|x64.Build.0 = Debug|x64
+		{2D73D385-7FA8-47B4-B681-6D3411471716}.Release|x64.ActiveCfg = Release|x64
+		{2D73D385-7FA8-47B4-B681-6D3411471716}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1190 @@
+[
+  {
+    "key": "ui.cbe51f138e63",
+    "zh": "Relic Tool · 遗物位置",
+    "en": "Relic Tool · Relic Locations",
+    "template": false
+  },
+  {
+    "key": "ui.49524f88b5dd",
+    "zh": "遗物位置",
+    "en": "Relic Locations",
+    "template": false
+  },
+  {
+    "key": "ui.3fd47edce45b",
+    "zh": "关闭",
+    "en": "Close",
+    "template": false
+  },
+  {
+    "key": "ui.a79337fae811",
+    "zh": "列表位置视图",
+    "en": "Location list view",
+    "template": false
+  },
+  {
+    "key": "ui.a446a50ef886",
+    "zh": "卡片位置视图",
+    "en": "Location card view",
+    "template": false
+  },
+  {
+    "key": "ui.11b2b3b2b619",
+    "zh": "当前没有可显示的检索结果",
+    "en": "No results to display",
+    "template": false
+  },
+  {
+    "key": "ui.4bd976c2d04d",
+    "zh": "导入存档并等待计算完成后，位置会在此同步显示。",
+    "en": "Import a save and wait for the search to finish. Locations will appear here.",
+    "template": false
+  },
+  {
+    "key": "ui.1c5c06713870",
+    "zh": "视图",
+    "en": "View",
+    "template": false
+  },
+  {
+    "key": "ui.aedd6814ff8c",
+    "zh": "列表",
+    "en": "List",
+    "template": false
+  },
+  {
+    "key": "ui.8882bd88d4e7",
+    "zh": "切换到列表视图",
+    "en": "Switch to list view",
+    "template": false
+  },
+  {
+    "key": "ui.a916b3c68aa1",
+    "zh": "用紧凑六行显示位置",
+    "en": "Show locations in a compact list",
+    "template": false
+  },
+  {
+    "key": "ui.fb5640f8e12e",
+    "zh": "卡片",
+    "en": "Cards",
+    "template": false
+  },
+  {
+    "key": "ui.df63c58819e7",
+    "zh": "切换到卡片视图",
+    "en": "Switch to card view",
+    "template": false
+  },
+  {
+    "key": "ui.284858a49c63",
+    "zh": "用三列两行卡片显示位置",
+    "en": "Show locations as six cards",
+    "template": false
+  },
+  {
+    "key": "ui.424d2300b702",
+    "zh": "界面大小",
+    "en": "UI size",
+    "template": false
+  },
+  {
+    "key": "ui.47f759d8bb2a",
+    "zh": "缩小位置窗口内容",
+    "en": "Decrease location text size",
+    "template": false
+  },
+  {
+    "key": "ui.1e6dd9d4de5c",
+    "zh": "放大位置窗口内容",
+    "en": "Increase location text size",
+    "template": false
+  },
+  {
+    "key": "ui.173f88d28ebf",
+    "zh": "置顶",
+    "en": "Pin",
+    "template": false
+  },
+  {
+    "key": "ui.df9fbeea93ac",
+    "zh": "置顶并让背景半透明",
+    "en": "Keep on top with a translucent background",
+    "template": false
+  },
+  {
+    "key": "ui.fb47db5e65ff",
+    "zh": "已置顶",
+    "en": "Pinned",
+    "template": false
+  },
+  {
+    "key": "ui.8524a5cfca3c",
+    "zh": "无法保存本地界面状态。",
+    "en": "Could not save the local UI settings.",
+    "template": false
+  },
+  {
+    "key": "ui.d1fe64359605",
+    "zh": " 点",
+    "en": " points",
+    "template": false
+  },
+  {
+    "key": "ui.1c5628cd1f73",
+    "zh": "栏位 ",
+    "en": "Slot ",
+    "template": false
+  },
+  {
+    "key": "ui.2da764c0c49a",
+    "zh": "暂不可用于检索",
+    "en": "Not available for search yet",
+    "template": false
+  },
+  {
+    "key": "ui.118be187701f",
+    "zh": "另有档位数值待验证",
+    "en": "Some tier values are still unverified",
+    "template": false
+  },
+  {
+    "key": "ui.89e5e14c8db9",
+    "zh": "基础",
+    "en": "Base",
+    "template": false
+  },
+  {
+    "key": "ui.c5500a58e0c5",
+    "zh": "数值",
+    "en": "Value",
+    "template": false
+  },
+  {
+    "key": "ui.d56a511f498f",
+    "zh": "已确认",
+    "en": "Confirmed",
+    "template": false
+  },
+  {
+    "key": "ui.f5e6dea5a59e",
+    "zh": " 颗真实预设遗物",
+    "en": " preset relics",
+    "template": false
+  },
+  {
+    "key": "ui.2c08cddfb13b",
+    "zh": "必须",
+    "en": "Required",
+    "template": false
+  },
+  {
+    "key": "ui.c930571f1513",
+    "zh": "想要",
+    "en": "Wanted",
+    "template": false
+  },
+  {
+    "key": "ui.30003ad423e4",
+    "zh": "深夜",
+    "en": "Deep",
+    "template": false
+  },
+  {
+    "key": "ui.de907d10df98",
+    "zh": "普通",
+    "en": "Standard",
+    "template": false
+  },
+  {
+    "key": "ui.f56e7eff58bf",
+    "zh": "白色",
+    "en": "White",
+    "template": false
+  },
+  {
+    "key": "ui.ff363a6120ad",
+    "zh": "推荐 ",
+    "en": "Result ",
+    "template": false
+  },
+  {
+    "key": "ui.22cfc1d75378",
+    "zh": "未导入",
+    "en": "Not imported",
+    "template": false
+  },
+  {
+    "key": "ui.cb37ffbc4ff7",
+    "zh": "等待安全导入",
+    "en": "Waiting to import",
+    "template": false
+  },
+  {
+    "key": "ui.b94e5b51282b",
+    "zh": "正式数据已加载。",
+    "en": "Data loaded.",
+    "template": false
+  },
+  {
+    "key": "ui.0b14b706ce89",
+    "zh": "运行时数据加载失败。请检查程序文件完整性后重新启动。",
+    "en": "Could not load the data. Check the application files and restart.",
+    "template": false
+  },
+  {
+    "key": "ui.993e3ddabd87",
+    "zh": "无法启动正式检索。",
+    "en": "Search is unavailable.",
+    "template": false
+  },
+  {
+    "key": "ui.626a5d22cf38",
+    "zh": "数据不可用",
+    "en": "Data unavailable",
+    "template": false
+  },
+  {
+    "key": "ui.99e23ca1df59",
+    "zh": " · 内置",
+    "en": " · Built-in",
+    "template": false
+  },
+  {
+    "key": "ui.30421bdd286e",
+    "zh": " · 外部",
+    "en": " · External",
+    "template": false
+  },
+  {
+    "key": "ui.460b3574e4bd",
+    "zh": "不可用",
+    "en": "Unavailable",
+    "template": false
+  },
+  {
+    "key": "ui.f6d3d88c3636",
+    "zh": "程序 ",
+    "en": "App ",
+    "template": false
+  },
+  {
+    "key": "ui.b05cd7d9b39f",
+    "zh": "未导入存档",
+    "en": "No save imported",
+    "template": false
+  },
+  {
+    "key": "ui.0ab51855e768",
+    "zh": "未选择存档",
+    "en": "No save selected",
+    "template": false
+  },
+  {
+    "key": "ui.f303ab1b5206",
+    "zh": "只读副本",
+    "en": "Read-only copy",
+    "template": false
+  },
+  {
+    "key": "ui.8e636bca00eb",
+    "zh": " · 只读副本",
+    "en": " · Read-only copy",
+    "template": false
+  },
+  {
+    "key": "ui.c36bd71d94dd",
+    "zh": "全部预设 · ",
+    "en": "All presets · ",
+    "template": false
+  },
+  {
+    "key": "ui.4acb42d0d2d6",
+    "zh": " 颗 · 单击即加入",
+    "en": " relics · Click to add",
+    "template": false
+  },
+  {
+    "key": "ui.f2696146c063",
+    "zh": " 颗",
+    "en": " relics",
+    "template": false
+  },
+  {
+    "key": "ui.3b20bd909b8a",
+    "zh": "内搜索",
+    "en": " search",
+    "template": false
+  },
+  {
+    "key": "ui.21c573aca82f",
+    "zh": "全部词条",
+    "en": "All effects",
+    "template": false
+  },
+  {
+    "key": "ui.42bf6ec59a40",
+    "zh": "全库搜索",
+    "en": "Search all effects",
+    "template": false
+  },
+  {
+    "key": "ui.f9d529eacdf3",
+    "zh": " 项",
+    "en": " items",
+    "template": false
+  },
+  {
+    "key": "ui.25e1c080d486",
+    "zh": "官方预设遗物",
+    "en": "Preset relics",
+    "template": false
+  },
+  {
+    "key": "ui.01aaebc96af1",
+    "zh": "导入失败",
+    "en": "Import failed",
+    "template": false
+  },
+  {
+    "key": "ui.5b095389ae90",
+    "zh": "存档导入失败",
+    "en": "Save import failed",
+    "template": false
+  },
+  {
+    "key": "ui.7831ef5573fb",
+    "zh": "安全导入中",
+    "en": "Importing",
+    "template": false
+  },
+  {
+    "key": "ui.4c1d47a11534",
+    "zh": "正在创建并解析只读副本…",
+    "en": "Creating and reading a read-only copy…",
+    "template": false
+  },
+  {
+    "key": "ui.d5ac1dd4f70b",
+    "zh": "已从只读副本导入",
+    "en": "Imported from a read-only copy",
+    "template": false
+  },
+  {
+    "key": "ui.6fad436f28c1",
+    "zh": "存档已导入，但本地状态恢复失败",
+    "en": "Save imported, but saved UI state could not be restored",
+    "template": false
+  },
+  {
+    "key": "ui.5c657a8b69b3",
+    "zh": "已加入“想要”：",
+    "en": "Added as wanted: ",
+    "template": false
+  },
+  {
+    "key": "ui.97007f9332cd",
+    "zh": "已加入官方预设遗物：",
+    "en": "Added preset relic: ",
+    "template": false
+  },
+  {
+    "key": "ui.f318371af12d",
+    "zh": "已删除规则。",
+    "en": "Rule removed.",
+    "template": false
+  },
+  {
+    "key": "ui.4c8be1653d1e",
+    "zh": "已调整规则优先顺序。",
+    "en": "Rule priority changed.",
+    "template": false
+  },
+  {
+    "key": "ui.b802570d5fc9",
+    "zh": "已清空当前角色的规则。",
+    "en": "Rules cleared for this character.",
+    "template": false
+  },
+  {
+    "key": "ui.d138b419e8ec",
+    "zh": "已固定另外五颗并切换当前槽位。",
+    "en": "Relic replaced; the other five are unchanged.",
+    "template": false
+  },
+  {
+    "key": "ui.a807837779bc",
+    "zh": "单槽替换失败",
+    "en": "Relic replacement failed",
+    "template": false
+  },
+  {
+    "key": "ui.09b0fb4875d3",
+    "zh": "完整替换列表缺少当前物理实例。",
+    "en": "The current relic instance is missing from the replacement list.",
+    "template": false
+  },
+  {
+    "key": "ui.6b0ede375309",
+    "zh": "已恢复当前器皿的最优结果。",
+    "en": "Restored the best result for this vessel.",
+    "template": false
+  },
+  {
+    "key": "ui.ed31fbb483ee",
+    "zh": "操作",
+    "en": "Operation",
+    "template": false
+  },
+  {
+    "key": "ui.8b353317d9e5",
+    "zh": "未完成；当前数据与存档副本保持不变。",
+    "en": " could not be completed. Current data and the save copy are unchanged.",
+    "template": false
+  },
+  {
+    "key": "ui.1be1751476ad",
+    "zh": "已发现，等待安全导入",
+    "en": "Found; waiting to import",
+    "template": false
+  },
+  {
+    "key": "ui.a440ed973cb2",
+    "zh": "数据版本已变化：已保留有效规则并清除旧实例结果。",
+    "en": "Data version changed. Valid rules were kept and old results cleared.",
+    "template": false
+  },
+  {
+    "key": "ui.b7d60bc42b50",
+    "zh": "仓库已变化：已保留有效规则并清除旧实例结果。",
+    "en": "Inventory changed. Valid rules were kept and old results cleared.",
+    "template": false
+  },
+  {
+    "key": "ui.2b19c4374a5e",
+    "zh": "检索失败",
+    "en": "Search failed",
+    "template": false
+  },
+  {
+    "key": "ui.50004b1778f1",
+    "zh": "检索超过安全预算，尚未证明最优；未显示不完整结果。",
+    "en": "Search exceeded its limit before an optimal result was proven. Incomplete results are hidden.",
+    "template": false
+  },
+  {
+    "key": "ui.4fe545145354",
+    "zh": "检索失败，尚未证明最优；未显示不完整结果。",
+    "en": "Search failed before an optimal result was proven. Incomplete results are hidden.",
+    "template": false
+  },
+  {
+    "key": "ui.61869c7b6e54",
+    "zh": "当前仓库没有合法的六遗物组合。",
+    "en": "This inventory has no valid six-relic combination.",
+    "template": false
+  },
+  {
+    "key": "ui.16d41ff9cfe7",
+    "zh": "未选择词条；已按正式模型的稳定默认顺序显示合法组合。",
+    "en": "No effects selected. Valid combinations are shown in the default stable order.",
+    "template": false
+  },
+  {
+    "key": "ui.b408c2410958",
+    "zh": "已根据当前规则更新三个不同器皿。",
+    "en": "Updated three vessels using the current rules.",
+    "template": false
+  },
+  {
+    "key": "ui.5ce0617bb07f",
+    "zh": "深夜槽",
+    "en": "Deep slot",
+    "template": false
+  },
+  {
+    "key": "ui.4b7d99c0be52",
+    "zh": "普通槽",
+    "en": "Standard slot",
+    "template": false
+  },
+  {
+    "key": "ui.e542479daaad",
+    "zh": "数值无法可靠合并",
+    "en": "Values cannot be combined reliably",
+    "template": false
+  },
+  {
+    "key": "ui.fd52b8e91a1a",
+    "zh": "合计：",
+    "en": "Total: ",
+    "template": false
+  },
+  {
+    "key": "ui.946e6267ca39",
+    "zh": "当前版本精确位置不可用",
+    "en": "Exact location unavailable for this version",
+    "template": false
+  },
+  {
+    "key": "ui.5208f29ab765",
+    "zh": "本地状态保存失败；当前会话仍可继续使用。",
+    "en": "Could not save the local state. You can continue this session.",
+    "template": false
+  },
+  {
+    "key": "ui.1663a4692d8a",
+    "zh": "本地界面状态保存失败；当前会话仍可继续使用。",
+    "en": "Could not save the UI settings. You can continue this session.",
+    "template": false
+  },
+  {
+    "key": "ui.789f61dbfcc7",
+    "zh": "红色",
+    "en": "Red",
+    "template": false
+  },
+  {
+    "key": "ui.67035e6b7f82",
+    "zh": "蓝色",
+    "en": "Blue",
+    "template": false
+  },
+  {
+    "key": "ui.d451c07d739b",
+    "zh": "黄色",
+    "en": "Yellow",
+    "template": false
+  },
+  {
+    "key": "ui.30c83dc25b12",
+    "zh": "绿色",
+    "en": "Green",
+    "template": false
+  },
+  {
+    "key": "ui.77610e2bc1c0",
+    "zh": "未知颜色",
+    "en": "Unknown color",
+    "template": false
+  },
+  {
+    "key": "ui.a6878682a7b8",
+    "zh": "缩小界面",
+    "en": "Decrease UI size",
+    "template": false
+  },
+  {
+    "key": "ui.b7eaf4a368f3",
+    "zh": "放大界面",
+    "en": "Increase UI size",
+    "template": false
+  },
+  {
+    "key": "ui.ac29e57a46f4",
+    "zh": "最小化",
+    "en": "Minimize",
+    "template": false
+  },
+  {
+    "key": "ui.82a6d9c3668c",
+    "zh": "最大化或还原",
+    "en": "Maximize or restore",
+    "template": false
+  },
+  {
+    "key": "ui.c47b54e84e79",
+    "zh": "角色",
+    "en": "Character",
+    "template": false
+  },
+  {
+    "key": "ui.3f4ebc4aad97",
+    "zh": "已选择",
+    "en": "Selected",
+    "template": false
+  },
+  {
+    "key": "ui.1ef3de06b32e",
+    "zh": "清空",
+    "en": "Clear",
+    "template": false
+  },
+  {
+    "key": "ui.e52277a58cc9",
+    "zh": "想要／必须",
+    "en": "Wanted / Required",
+    "template": false
+  },
+  {
+    "key": "ui.91fea5608b1c",
+    "zh": "提高优先级",
+    "en": "Move up in priority",
+    "template": false
+  },
+  {
+    "key": "ui.d8f7ae7fd3a2",
+    "zh": "降低优先级",
+    "en": "Move down in priority",
+    "template": false
+  },
+  {
+    "key": "ui.2f9daa828907",
+    "zh": "删除",
+    "en": "Remove",
+    "template": false
+  },
+  {
+    "key": "ui.c73a6774d91c",
+    "zh": "存档",
+    "en": "Save",
+    "template": false
+  },
+  {
+    "key": "ui.ce7a87806ca9",
+    "zh": "导入存档",
+    "en": "Import save",
+    "template": false
+  },
+  {
+    "key": "ui.b9d4e180460b",
+    "zh": "存档栏位",
+    "en": "Save slot",
+    "template": false
+  },
+  {
+    "key": "ui.b63ab46ed2c2",
+    "zh": "按真实中文词条名称或分类搜索",
+    "en": "Search effect names or categories in the current language",
+    "template": false
+  },
+  {
+    "key": "ui.66ece34ea58d",
+    "zh": "搜索词条和分类",
+    "en": "Search effects and categories",
+    "template": false
+  },
+  {
+    "key": "ui.4e9015233753",
+    "zh": "没有搜索结果",
+    "en": "No search results",
+    "template": false
+  },
+  {
+    "key": "ui.94501dfbda6e",
+    "zh": "请缩短关键词、清空搜索框或取消当前标签。",
+    "en": "Try a shorter keyword, clear the search, or deselect the current tag.",
+    "template": false
+  },
+  {
+    "key": "ui.e1fa1bf0cd78",
+    "zh": "正在计算…",
+    "en": "Searching…",
+    "template": false
+  },
+  {
+    "key": "ui.670971e2ec55",
+    "zh": "恢复最优",
+    "en": "Restore best",
+    "template": false
+  },
+  {
+    "key": "ui.5ac9489c03e4",
+    "zh": "显示位置",
+    "en": "Show locations",
+    "template": false
+  },
+  {
+    "key": "ui.42eee0165d4d",
+    "zh": "上一颗遗物",
+    "en": "Previous relic",
+    "template": false
+  },
+  {
+    "key": "ui.6d7c30340f3e",
+    "zh": "下一颗遗物",
+    "en": "Next relic",
+    "template": false
+  },
+  {
+    "key": "ui.8e7a698add5e",
+    "zh": "导入存档后显示真实检索结果",
+    "en": "Import a save to view search results",
+    "template": false
+  },
+  {
+    "key": "ui.562ebe7f6100",
+    "zh": "程序只会解析经过校验的只读副本。",
+    "en": "The application reads only a verified read-only copy.",
+    "template": false
+  },
+  {
+    "key": "ui.14c3fd55661a",
+    "zh": "当前没有合法组合",
+    "en": "No valid combinations",
+    "template": false
+  },
+  {
+    "key": "ui.a4bf78e2b92c",
+    "zh": "请检查存档仓库、角色、器皿颜色与已选规则。",
+    "en": "Check the inventory, character, vessel colors and selected rules.",
+    "template": false
+  },
+  {
+    "key": "ui.c74e9b58a122",
+    "zh": "真实数据无法加载",
+    "en": "Could not load the game data",
+    "template": false
+  },
+  {
+    "key": "ui.65622e8ee9fb",
+    "zh": "初始化",
+    "en": "Initialization",
+    "template": false
+  },
+  {
+    "key": "ui.abc943c3bafc",
+    "zh": "选择 Nightreign 存档（只读检查）",
+    "en": "Select a Nightreign save (read-only)",
+    "template": false
+  },
+  {
+    "key": "ui.e9dc9d0bd8b7",
+    "zh": "Nightreign 存档 (*.sl2;*.co2)|*.sl2;*.co2|所有文件 (*.*)|*.*",
+    "en": "Nightreign saves (*.sl2;*.co2)|*.sl2;*.co2|All files (*.*)|*.*",
+    "template": false
+  },
+  {
+    "key": "ui.d52611710b88",
+    "zh": "存档导入",
+    "en": "Save import",
+    "template": false
+  },
+  {
+    "key": "ui.c0e2ac527003",
+    "zh": "单槽替换",
+    "en": "Relic replacement",
+    "template": false
+  },
+  {
+    "key": "ui.e60eec88c93b",
+    "zh": "搜索词条或遗物",
+    "en": "Search effects or relics",
+    "template": false
+  },
+  {
+    "key": "ui.0a90c17daa69",
+    "zh": "清空关键词",
+    "en": "Clear keywords",
+    "template": false
+  },
+  {
+    "key": "ui.aee887434131",
+    "zh": "刷新",
+    "en": "Refresh",
+    "template": false
+  },
+  {
+    "key": "ui.80d845a206da",
+    "zh": "已选择  ",
+    "en": "Selected  ",
+    "template": false
+  },
+  {
+    "key": "ui.f853a70b1204",
+    "zh": "上移",
+    "en": "Move up",
+    "template": false
+  },
+  {
+    "key": "ui.e75e8b4e5c97",
+    "zh": "下移",
+    "en": "Move down",
+    "template": false
+  },
+  {
+    "key": "ui.28b6c824a85e",
+    "zh": "‹ 上一个",
+    "en": "‹ Previous",
+    "template": false
+  },
+  {
+    "key": "ui.d3914de04c65",
+    "zh": "下一个 ›",
+    "en": "Next ›",
+    "template": false
+  },
+  {
+    "key": "ui.572cf45ba436",
+    "zh": "返回",
+    "en": "Back",
+    "template": false
+  },
+  {
+    "key": "ui.05f1293993ae",
+    "zh": "透明度",
+    "en": "Opacity",
+    "template": false
+  },
+  {
+    "key": "ui.3ddb0d9b8e99",
+    "zh": "背景透明度",
+    "en": "Background opacity",
+    "template": false
+  },
+  {
+    "key": "ui.17a1ff73028d",
+    "zh": "请检查关键词，清空搜索框或取消当前标签。",
+    "en": "Check the keywords, clear the search, or deselect the current tag.",
+    "template": false
+  },
+  {
+    "key": "ui.6fb2840d568a",
+    "zh": " 条",
+    "en": " copies",
+    "template": false
+  },
+  {
+    "key": "ui.20d91b87e37b",
+    "zh": "最大化／还原",
+    "en": "Maximize / Restore",
+    "template": false
+  },
+  {
+    "key": "about.title",
+    "zh": "关于软件",
+    "en": "About",
+    "template": false
+  },
+  {
+    "key": "about.credits",
+    "zh": "作者与贡献者",
+    "en": "Authors and contributors",
+    "template": false
+  },
+  {
+    "key": "about.currentVersion",
+    "zh": "当前版本：1.0.0",
+    "en": "Current version: 1.0.0",
+    "template": false
+  },
+  {
+    "key": "about.updateLink",
+    "zh": "更新地址",
+    "en": "Update link",
+    "template": false
+  },
+  {
+    "key": "about.viewUpdates",
+    "zh": "查看更新",
+    "en": "View updates",
+    "template": false
+  },
+  {
+    "key": "about.feedbackEmail",
+    "zh": "反馈邮箱",
+    "en": "Feedback email",
+    "template": false
+  },
+  {
+    "key": "ui.inventoryCount",
+    "zh": "当前栏位遗物数量：{0}",
+    "en": "Relics in selected slot: {0}",
+    "template": true
+  },
+  {
+    "key": "ui.unnamedSlot",
+    "zh": "未命名",
+    "en": "Unnamed",
+    "template": false
+  },
+  {
+    "key": "ui.cacheMigrationIncomplete",
+    "zh": "存档缓存迁移未完成；已保留上次验证副本，请重试。",
+    "en": "Save cache migration did not finish. The last verified copy is preserved; please try again.",
+    "template": false
+  },
+  {
+    "key": "about.language",
+    "zh": "语言",
+    "en": "Language",
+    "template": false
+  },
+  {
+    "key": "about.policy",
+    "zh": "未手动选择时，中文 Windows 使用简体中文；其他显示语言默认英文。",
+    "en": "Without a saved choice, Chinese Windows display languages use Simplified Chinese; all others default to English.",
+    "template": false
+  },
+  {
+    "key": "about.saveFailure",
+    "zh": "语言偏好未保存，请检查软件目录的写入权限。",
+    "en": "Could not save the language preference. Check write access to the application folder.",
+    "template": false
+  },
+  {
+    "key": "ui.dataRepair",
+    "zh": "请检查程序数据文件是否完整。",
+    "en": "Check that the application data files are complete.",
+    "template": false
+  },
+  {
+    "key": "ui.position",
+    "zh": "第{0}行，第{1}个",
+    "en": "Row {0}, Column {1}",
+    "template": true
+  },
+  {
+    "key": "ui.positionPreview",
+    "zh": "第 {0} 行 · 第 {1} 个",
+    "en": "Row {0} · Column {1}",
+    "template": true
+  },
+  {
+    "key": "ui.slot",
+    "zh": "栏位 {0}",
+    "en": "Slot {0}",
+    "template": true
+  },
+  {
+    "key": "ui.selectedCount",
+    "zh": "已选择  {0}/10",
+    "en": "Selected  {0}/10",
+    "template": true
+  },
+  {
+    "key": "ui.extraStacks",
+    "zh": "另有{0}份叠加待验证",
+    "en": "{0} additional copies have unverified stacking",
+    "template": true
+  },
+  {
+    "key": "ui.sum",
+    "zh": "合计：{0}",
+    "en": "Total: {0}",
+    "template": true
+  },
+  {
+    "key": "ui.approximation",
+    "zh": "{0}（约 ×{1}）",
+    "en": "{0} (≈ ×{1})",
+    "template": true
+  },
+  {
+    "key": "ui.addWanted",
+    "zh": "已加入“想要”：{0}",
+    "en": "Added as wanted: {0}",
+    "template": true
+  },
+  {
+    "key": "ui.addPreset",
+    "zh": "已加入官方预设遗物：{0}",
+    "en": "Added preset relic: {0}",
+    "template": true
+  },
+  {
+    "key": "ui.ruleChanged",
+    "zh": "已更新“{0}”的规则状态。",
+    "en": "Updated the rule for “{0}”.",
+    "template": true
+  },
+  {
+    "key": "ui.rulesSkipped",
+    "zh": "数据更新后有 {0} 条旧规则已安全跳过。",
+    "en": "Skipped {0} outdated rules after the data changed.",
+    "template": true
+  },
+  {
+    "key": "ui.operationFailure",
+    "zh": "{0}未完成；当前数据与存档副本保持不变。",
+    "en": "{0} could not be completed. Current data and the save copy are unchanged.",
+    "template": true
+  },
+  {
+    "key": "ui.permissionFailure",
+    "zh": "{0}：没有所需的文件访问权限。",
+    "en": "{0}: file access was denied.",
+    "template": true
+  },
+  {
+    "key": "ui.cancelFailure",
+    "zh": "{0}：操作已取消。",
+    "en": "{0}: operation canceled.",
+    "template": true
+  },
+  {
+    "key": "ui.genericFailure",
+    "zh": "{0}。请检查文件、版本与访问权限后重试。",
+    "en": "{0}. Check the file, version and access permissions, then try again.",
+    "template": true
+  },
+  {
+    "key": "ui.group.shop",
+    "zh": "商店固定购买",
+    "en": "Shop purchases",
+    "template": false
+  },
+  {
+    "key": "ui.group.boss",
+    "zh": "夜王／剧情奖励",
+    "en": "Boss / story rewards",
+    "template": false
+  },
+  {
+    "key": "ui.group.story",
+    "zh": "剧情／角色奖励",
+    "en": "Story / character rewards",
+    "template": false
+  },
+  {
+    "key": "ui.group.other",
+    "zh": "其他固定获取",
+    "en": "Other fixed sources",
+    "template": false
+  },
+  {
+    "key": "ui.locationTie",
+    "zh": "位置顺序不确定",
+    "en": "Position order uncertain",
+    "template": false
+  },
+  {
+    "key": "ui.positionMissing",
+    "zh": "遗物不在当前定位分组中。",
+    "en": "The relic is not in the current location group.",
+    "template": false
+  },
+  {
+    "key": "ui.group.nightlord",
+    "zh": "夜王固定奖励",
+    "en": "Nightlord rewards",
+    "template": false
+  },
+  {
+    "key": "ui.summary.effects",
+    "zh": "{0} · {1} 项",
+    "en": "{0} · {1} effects",
+    "template": true
+  },
+  {
+    "key": "ui.summary.presets",
+    "zh": "全部预设 · {0} 颗 · 单击即加入",
+    "en": "All presets · {0} relics · Click to add",
+    "template": true
+  },
+  {
+    "key": "ui.summary.group",
+    "zh": "{0} · {1} 颗",
+    "en": "{0} · {1} relics",
+    "template": true
+  },
+  {
+    "key": "ui.within",
+    "zh": "{0}内搜索",
+    "en": "Search in {0}",
+    "template": true
+  },
+  {
+    "key": "ui.addWantedStatus",
+    "zh": "已加入想要规则。",
+    "en": "Added a wanted rule.",
+    "template": false
+  },
+  {
+    "key": "ui.addPresetStatus",
+    "zh": "已加入预设遗物规则。",
+    "en": "Added a preset relic rule.",
+    "template": false
+  },
+  {
+    "key": "ui.changedStatus",
+    "zh": "已更新规则状态。",
+    "en": "Rule updated.",
+    "template": false
+  },
+  {
+    "key": "ui.confirmed.stacking",
+    "zh": "同组效果无法同时生效，只计算一份有效收益",
+    "en": "Effects in this group cannot be active together; only one contribution is counted",
+    "template": false
+  },
+  {
+    "key": "ui.warning.character",
+    "zh": "此词条不适用于当前角色",
+    "en": "This effect does not apply to the current character",
+    "template": false
+  },
+  {
+    "key": "ui.warning.preset",
+    "zh": "当前存档没有这颗官方预设遗物",
+    "en": "This preset relic is not in the current save",
+    "template": false
+  },
+  {
+    "key": "ui.warning.requiredExclusive",
+    "zh": "同一互斥组内的必须词条无法同时生效",
+    "en": "Required effects in the same exclusive group cannot be active together",
+    "template": false
+  },
+  {
+    "key": "ui.warning.requiredUnavailable",
+    "zh": "无法满足全部必须词条，已返回缺少条件最少的方案",
+    "en": "Some required effects could not be met. Showing the combinations with the fewest missing requirements",
+    "template": false
+  },
+  {
+    "key": "ui.warning.unverified",
+    "zh": "数值待验证",
+    "en": "Value unverified",
+    "template": false
+  },
+  {
+    "key": "ui.numeric.points",
+    "zh": "{0} 点",
+    "en": "{0} points",
+    "template": false
+  },
+  {
+    "key": "ui.final.operation_failure",
+    "zh": "操作未完成；当前会话仍可继续使用。",
+    "en": "The operation could not be completed. You can continue using the current session.",
+    "template": false
+  },
+  {
+    "key": "ui.final.write_failed",
+    "zh": "无法写入软件目录。请将程序解压到可写文件夹，并检查磁盘空间与访问权限。",
+    "en": "Unable to write to the application folder. Extract the program to a writable folder and check disk space and access permissions.",
+    "template": false
+  },
+  {
+    "key": "ui.final.save_missing",
+    "zh": "找不到所选存档。请确认文件仍在原位置或重新选择。",
+    "en": "The selected save file could not be found. Check its location or select it again.",
+    "template": false
+  },
+  {
+    "key": "ui.final.save_format",
+    "zh": "存档格式不受支持。请选择 Nightreign PC 的 .sl2 或 .co2 文件。",
+    "en": "This save format is not supported. Select a Nightreign PC .sl2 or .co2 file.",
+    "template": false
+  },
+  {
+    "key": "ui.final.save_integrity",
+    "zh": "存档未通过完整性检查。文件可能损坏或不完整；已保留上次有效副本。",
+    "en": "The save failed its integrity check and may be damaged or incomplete. Any previous valid copy has been retained.",
+    "template": false
+  },
+  {
+    "key": "ui.final.save_layout",
+    "zh": "该存档版本或布局不受支持。当前数据适用于 Regulation 1.03.5。",
+    "en": "This save version or layout is not supported. The current data targets Regulation 1.03.5.",
+    "template": false
+  },
+  {
+    "key": "ui.final.save_changing",
+    "zh": "复制期间存档发生变化。请稍后刷新重试；已保留上次有效副本。",
+    "en": "The save changed while it was being copied. Refresh and try again later. Any previous valid copy has been retained.",
+    "template": false
+  }
+]
